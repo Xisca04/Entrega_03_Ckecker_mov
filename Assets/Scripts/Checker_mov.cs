@@ -11,6 +11,9 @@ public class Checker_mov : MonoBehaviour
     private Vector2Int moveDirection;
     private bool validBox;
 
+    private List<Vector2> validBoxList;
+    private Vector2 Pos;
+
     public GameObject warningPanel;
 
     private void Awake()
@@ -19,7 +22,7 @@ public class Checker_mov : MonoBehaviour
         position2D = Vector2Int.zero;
         transform.position = new Vector3(position2D.x, position2D.y, 0);
 
-        Hide()
+        Hide();
     }
 
     private void Update()
@@ -30,6 +33,11 @@ public class Checker_mov : MonoBehaviour
 
     private void Movement()
     {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            Debug.Log($"click");
+        }
+
         if (validBox)
         {
             if (validBox)
