@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Checker_mov : MonoBehaviour
 {
@@ -12,9 +13,11 @@ public class Checker_mov : MonoBehaviour
     private bool validBox;
 
     private List<Vector2> validBoxList;
-    private Vector2 Pos;
+    private Vector2 clickedPos;
 
-    public GameObject warningPanel;
+    [SerializeField] private GameObject warningPanel;
+    [SerializeField] private Button clueButton;
+    [SerializeField] private Button tryAgainButton;
 
     private void Awake()
     {
@@ -22,27 +25,29 @@ public class Checker_mov : MonoBehaviour
         position2D = Vector2Int.zero;
         transform.position = new Vector3(position2D.x, position2D.y, 0);
 
+        // Initialize the valid box list
+        List<Vector2> validBoxList = new List<Vector2>();
+
+        tryAgainButton.onClick.AddListener(Hide);
+       // clueButton.onClick.AddListener(Hide);
+
         Hide();
     }
 
     private void Update()
     {
-        Movement();
+       HandleClick();
     }
 
-
-    private void Movement()
+    private void HandleClick()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Debug.Log($"click");
-        }
-
-        if (validBox)
-        {
             if (validBox)
             {
-                // return position a esa casilla
+                GameObject player = GameObject.FindWithTag("Player");
+                player.transform.position = new Vector3(clickedPos.x, clickedPos.y, 0);
+                
             }
             else if (!validBox)
             {
@@ -61,8 +66,11 @@ public class Checker_mov : MonoBehaviour
         warningPanel.SetActive(false);
     }
 
-    public void ShowClue()
+    private void ShowClue()
     {
-        // destacar casillas posibles
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            // Destacar casillas válidas
+        }
     }
 }
