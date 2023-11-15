@@ -34,11 +34,10 @@ public class Checker_mov : MonoBehaviour
 
     private void OnMouseDown()
     {
-
         if (IsPositionBoxValid(clickedPosition, validBoxList))
         {
             Debug.Log($"La posición clicada está dentro de la lista de posiciones válidas.");
-            GameObject player = GameObject.FindWithTag("Player");
+            player = GameObject.FindWithTag("Player");
             player.transform.position = clickedPosition;
         }
         else
@@ -95,8 +94,8 @@ public class Checker_mov : MonoBehaviour
 
     public void ShowClue()
     {
-        // Destacar casillas posibles
-
+        // Destacar casillas posibles con un color
+        // Hacer un bucle que recorra las posiciones validas y que pinte el fondo del cuadrado, y que descuente la posición actual de la ficha?
         Debug.Log($"Clue");
     }
 }
