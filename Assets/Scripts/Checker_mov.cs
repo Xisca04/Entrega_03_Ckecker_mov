@@ -11,8 +11,9 @@ public class Checker_mov : MonoBehaviour
     private Vector2Int moveDirection;
     private bool validBox;
     [SerializeField] GameObject player;
-    private List<Vector2> validBoxList;
-    private Vector2 clickedPos;
+    
+    [SerializeField] private List<Vector2> validBoxList;
+    private Vector2 clickedPosition;
 
     // UI Elements
     [SerializeField] private GameObject warningPanel;
@@ -21,14 +22,11 @@ public class Checker_mov : MonoBehaviour
 
     private void Awake()
     {
-        // Initial position
-        //position2D = Vector2Int.zero;
-        //transform.position = new Vector3(position2D.x, position2D.y, 0);
-
         // Initialize the valid box list
         List<Vector2> validBoxList = new List<Vector2>();
+        AddBoxPositionsInList(validBoxList);
 
-        tryAgainButton.onClick.AddListener(Hide);
+        //tryAgainButton.onClick.AddListener(Hide);
        // clueButton.onClick.AddListener(Hide);
 
         Hide();
@@ -36,20 +34,53 @@ public class Checker_mov : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (validBox)
+
+        if (IsPositionBoxValid(clickedPosition, validBoxList))
         {
+            Debug.Log($"La posición clicada está dentro de la lista de posiciones válidas.");
             GameObject player = GameObject.FindWithTag("Player");
-            player.transform.position = new Vector3(1, 1, 0);
+            player.transform.position = clickedPosition;
         }
-        /*
-        else if (!validBox)
+        else
         {
-           Show();
+            Show();
         }
-        */
-        player = GameObject.FindWithTag("Player");
-        player.transform.position = new Vector3(1, 1, 0);
-        Debug.Log($"mouseDown");
+    }
+
+    private bool IsPositionBoxValid(Vector2 clickedPosition, List<Vector2> validBoxList)
+    {
+        // Verificar si la posición está en la lista de posiciones válidas
+        foreach (Vector2 pos in validBoxList)
+        {
+            if (pos.x == clickedPosition.x && pos.y == clickedPosition.y)
+            {
+                return true; // La posición está en la lista de posiciones válidas
+            }
+        }
+        return false; // La posición no está en la lista de posiciones válidas
+    }
+
+    private void AddBoxPositionsInList(List<Vector2> validBoxList)
+    {
+        validBoxList.Add(new Vector2(3.5f, 3.5f));
+        validBoxList.Add(new Vector2(2.5f, 3.5f));
+        validBoxList.Add(new Vector2(1.5f, 3.5f));
+        validBoxList.Add(new Vector2(0.5f, 3.5f));
+        validBoxList.Add(new Vector2(0.0f, 3.0f));
+        validBoxList.Add(new Vector2(1.0f, 3.0f));
+        validBoxList.Add(new Vector2(2.0f, 3.0f));
+        validBoxList.Add(new Vector2(3.0f, 3.0f));
+        validBoxList.Add(new Vector2(2.5f, 2.5f));
+        validBoxList.Add(new Vector2(1.5f, 2.5f));
+        validBoxList.Add(new Vector2(0.5f, 2.5f));
+        validBoxList.Add(new Vector2(0.0f, 2.0f));
+        validBoxList.Add(new Vector2(1.0f, 2.0f));
+        validBoxList.Add(new Vector2(2.0f, 2.0f));
+        validBoxList.Add(new Vector2(1.5f, 1.5f));
+        validBoxList.Add(new Vector2(0.5f, 1.5f));
+        validBoxList.Add(new Vector2(0.0f, 1.0f));
+        validBoxList.Add(new Vector2(1.0f, 1.0f));
+        validBoxList.Add(new Vector2(0.5f, 0.5f));
     }
 
     public void Show()
@@ -62,11 +93,10 @@ public class Checker_mov : MonoBehaviour
         warningPanel.SetActive(false);
     }
 
-    private void ShowClue()
+    public void ShowClue()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            // Destacar casillas válidas
-        }
+        // Destacar casillas posibles
+
+        Debug.Log($"Clue");
     }
 }
