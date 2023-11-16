@@ -23,8 +23,8 @@ public class Checker_mov : MonoBehaviour
     private void Awake()
     {
         // Initialize the valid box list
-        List<Vector2> validBoxList = new List<Vector2>();
-        AddBoxPositionsInList(validBoxList);
+        //List<Vector2> validBoxList = new List<Vector2>();
+        //AddBoxPositionsInList(validBoxList);
 
         //tryAgainButton.onClick.AddListener(Hide);
        // clueButton.onClick.AddListener(Hide);
@@ -34,52 +34,16 @@ public class Checker_mov : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (IsPositionBoxValid(clickedPosition, validBoxList))
+        if (gameObject.CompareTag("validPos"))
         {
-            Debug.Log($"La posición clicada está dentro de la lista de posiciones válidas.");
+            Vector2 validBoxPosition = transform.position;
             player = GameObject.FindWithTag("Player");
-            player.transform.position = clickedPosition;
+            player.transform.position = validBoxPosition;
         }
         else
         {
             Show();
         }
-    }
-
-    private bool IsPositionBoxValid(Vector2 clickedPosition, List<Vector2> validBoxList)
-    {
-        // Verificar si la posición está en la lista de posiciones válidas
-        foreach (Vector2 pos in validBoxList)
-        {
-            if (pos.x == clickedPosition.x && pos.y == clickedPosition.y)
-            {
-                return true; // La posición está en la lista de posiciones válidas
-            }
-        }
-        return false; // La posición no está en la lista de posiciones válidas
-    }
-
-    private void AddBoxPositionsInList(List<Vector2> validBoxList)
-    {
-        validBoxList.Add(new Vector2(3.5f, 3.5f));
-        validBoxList.Add(new Vector2(2.5f, 3.5f));
-        validBoxList.Add(new Vector2(1.5f, 3.5f));
-        validBoxList.Add(new Vector2(0.5f, 3.5f));
-        validBoxList.Add(new Vector2(0.0f, 3.0f));
-        validBoxList.Add(new Vector2(1.0f, 3.0f));
-        validBoxList.Add(new Vector2(2.0f, 3.0f));
-        validBoxList.Add(new Vector2(3.0f, 3.0f));
-        validBoxList.Add(new Vector2(2.5f, 2.5f));
-        validBoxList.Add(new Vector2(1.5f, 2.5f));
-        validBoxList.Add(new Vector2(0.5f, 2.5f));
-        validBoxList.Add(new Vector2(0.0f, 2.0f));
-        validBoxList.Add(new Vector2(1.0f, 2.0f));
-        validBoxList.Add(new Vector2(2.0f, 2.0f));
-        validBoxList.Add(new Vector2(1.5f, 1.5f));
-        validBoxList.Add(new Vector2(0.5f, 1.5f));
-        validBoxList.Add(new Vector2(0.0f, 1.0f));
-        validBoxList.Add(new Vector2(1.0f, 1.0f));
-        validBoxList.Add(new Vector2(0.5f, 0.5f));
     }
 
     public void Show()
@@ -94,8 +58,17 @@ public class Checker_mov : MonoBehaviour
 
     public void ShowClue()
     {
-        // Destacar casillas posibles con un color
-        // Hacer un bucle que recorra las posiciones validas y que pinte el fondo del cuadrado, y que descuente la posición actual de la ficha?
+        GameObject[] validPosObjects = GameObject.FindGameObjectsWithTag("validPos");
+        
+        foreach (GameObject validBoxPosition in validPosObjects)
+        {
+            SpriteRenderer spriterenderer = validBoxPosition.GetComponent<SpriteRenderer>();
+            
+            if (spriterenderer != null)
+            {
+                spriterenderer.material.color = Color.red;
+            }
+        }
         Debug.Log($"Clue");
     }
 }
