@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 using UnityEngine.UI;
 
 public class Checker_mov : MonoBehaviour
@@ -16,12 +17,12 @@ public class Checker_mov : MonoBehaviour
     [SerializeField] private Button clueButton;
     [SerializeField] private Button tryAgainButton;
 
-    private Vector2 previousPosition;
     private Vector2 nextPosition;
+    private Vector2 actualPosition;
 
     private void Awake()
     {
-       previousPosition = transform.position;
+       actualPosition = transform.position;
         Hide();
     }
 
@@ -29,23 +30,43 @@ public class Checker_mov : MonoBehaviour
     {
         if (gameObject.CompareTag("validPos"))
         {
-            if (nextPosition.y < previousPosition.y)
+            if (IsMoveValid(moveDirection))
             {
                 Vector2 validBoxPosition = transform.position;
                 player = GameObject.FindWithTag("Player");
                 player.transform.position = validBoxPosition;
-
-                previousPosition = nextPosition;
             }
-            else if(nextPosition.y > previousPosition.y)
+            else // Si una casilla era válida antes y ahora no lo es porque el player volvería atrás -> se muestra el panel de casilla no válida
             {
-                Debug.Log($"cuidado");
+                Debug.Log($"no");
             }
         }
         else
         {
             Show();
         }
+    }
+    private Vector2 moveDirection;
+    public bool IsMoveValid(Vector2 moveDirection)
+    {
+        // Obtiene la dirección del movimiento
+       // Vector2 moveDirection = actualPosition - nextPosition;
+        //actualPosition = nextPosition;
+
+        // Está moviéndose hacia arriba y hacia la izquierda
+        if ((moveDirection.x == -1f && moveDirection.y == 1f) ||
+               (moveDirection.x == 1f && moveDirection.y == 1f))
+        {
+            return true;
+        }
+
+        // Está moviéndose hacia arriba y hacia la derecha
+        //if (moveDirection.y > 0)
+        //{
+        //return true;
+        //}
+
+        return false;
     }
 
     public void Show()
@@ -71,7 +92,5 @@ public class Checker_mov : MonoBehaviour
                 spriterenderer.material.color = Color.red;
             }
         }
-
-        Debug.Log($"Clue");
     }
 }
