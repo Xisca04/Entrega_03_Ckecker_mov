@@ -7,28 +7,21 @@ public class Checker_mov : MonoBehaviour
 {
     // Checker movement: diagonally-up right or left in one unit
 
-    private Vector2Int position2D;
-    private Vector2Int moveDirection;
-    private bool validBox;
     [SerializeField] GameObject player;
     
-    [SerializeField] private List<Vector2> validBoxList;
-    private Vector2 clickedPosition;
+    //[SerializeField] private List<Vector2> validBoxList;
 
     // UI Elements
     [SerializeField] private GameObject warningPanel;
     [SerializeField] private Button clueButton;
     [SerializeField] private Button tryAgainButton;
 
+    private Vector2 previousPosition;
+    private Vector2 nextPosition;
+
     private void Awake()
     {
-        // Initialize the valid box list
-        //List<Vector2> validBoxList = new List<Vector2>();
-        //AddBoxPositionsInList(validBoxList);
-
-        //tryAgainButton.onClick.AddListener(Hide);
-       // clueButton.onClick.AddListener(Hide);
-
+       previousPosition = transform.position;
         Hide();
     }
 
@@ -36,9 +29,18 @@ public class Checker_mov : MonoBehaviour
     {
         if (gameObject.CompareTag("validPos"))
         {
-            Vector2 validBoxPosition = transform.position;
-            player = GameObject.FindWithTag("Player");
-            player.transform.position = validBoxPosition;
+            if (nextPosition.y < previousPosition.y)
+            {
+                Vector2 validBoxPosition = transform.position;
+                player = GameObject.FindWithTag("Player");
+                player.transform.position = validBoxPosition;
+
+                previousPosition = nextPosition;
+            }
+            else if(nextPosition.y > previousPosition.y)
+            {
+                Debug.Log($"cuidado");
+            }
         }
         else
         {
@@ -69,6 +71,7 @@ public class Checker_mov : MonoBehaviour
                 spriterenderer.material.color = Color.red;
             }
         }
+
         Debug.Log($"Clue");
     }
 }
