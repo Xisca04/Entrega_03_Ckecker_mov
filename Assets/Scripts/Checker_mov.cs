@@ -6,18 +6,15 @@ using UnityEngine.UI;
 
 public class Checker_mov : MonoBehaviour
 {
-    // Checker movement: diagonally-up right or left in one unit
-
-    //[SerializeField] GameObject player;
+    // Checker movement
+    
+    [SerializeField] private GameObject player;
+    private Vector2 previousPosition;
+    private Vector2 currentPosition;
 
     // UI Elements
     [SerializeField] private GameObject warningPanel;
     [SerializeField] private GameObject cluePanel;
-
-    private Vector2 previousPosition;
-    private Vector2 currentPosition;
-    private Vector2 moveDirection;
-    [SerializeField] private GameObject player;
 
     private void Awake()
     {
