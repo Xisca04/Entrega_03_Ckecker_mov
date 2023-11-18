@@ -8,67 +8,81 @@ public class Checker_mov : MonoBehaviour
 {
     // Checker movement: diagonally-up right or left in one unit
 
-    [SerializeField] GameObject player;
-    
-    //[SerializeField] private List<Vector2> validBoxList;
+    //[SerializeField] GameObject player;
 
     // UI Elements
     [SerializeField] private GameObject warningPanel;
     [SerializeField] private Button clueButton;
     [SerializeField] private Button tryAgainButton;
 
-    private Vector2 nextPosition;
-    private Vector2 actualPosition;
+    private Vector2 previousPosition;
+    private Vector3 currentPosition;
+    private Vector2 moveDirection;
+    [SerializeField] GameObject player;
 
     private void Awake()
     {
-       actualPosition = transform.position;
-        Hide();
+       Hide();
+    }
+
+    private void Start()
+    {
+        previousPosition = transform.position;
+    }
+
+    private void Update()
+    {
+        currentPosition = transform.position;
+
+        if (currentPosition.y < previousPosition.y)
+        {
+            currentPosition.y = previousPosition.y; // Ajusta la posición en Y a la anterior
+            transform.position = currentPosition; // Aplica el cambio de posición al GameObject
+        }
+
+        // Actualiza la posición anterior a la actual para la siguiente comparación
+        previousPosition = currentPosition;
     }
 
     private void OnMouseDown()
     {
-        if (gameObject.CompareTag("validPos"))
+        if (gameObject.CompareTag("validPos") && previousPosition.y < currentPosition.y)
         {
-            if (IsMoveValid(moveDirection))
-            {
-                Vector2 validBoxPosition = transform.position;
-                player = GameObject.FindWithTag("Player");
-                player.transform.position = validBoxPosition;
-            }
-            else // Si una casilla era válida antes y ahora no lo es porque el player volvería atrás -> se muestra el panel de casilla no válida
-            {
-                Debug.Log($"no");
-            }
+            // Mover player a la posición clicada
+            Vector2 validBoxPosition = transform.position;
+            player = GameObject.FindWithTag("Player");
+            player.transform.position = validBoxPosition;
+            
         }
         else
         {
-            Show();
+            Show(); // Mostrar panel de advertencia
         }
     }
-    private Vector2 moveDirection;
-    public bool IsMoveValid(Vector2 moveDirection)
+   
+
+
+
+
+
+    /*
+    private bool IsMoveValid(Vector2 moveDirection)
     {
-        // Obtiene la dirección del movimiento
-       // Vector2 moveDirection = actualPosition - nextPosition;
-        //actualPosition = nextPosition;
+        nextPosition = transform.position;
+        //player.transform.position = moveDirection;
 
-        // Está moviéndose hacia arriba y hacia la izquierda
-        if ((moveDirection.x == -1f && moveDirection.y == 1f) ||
-               (moveDirection.x == 1f && moveDirection.y == 1f))
+        if (nextPosition.y < actualPosition.y)
         {
-            return true;
+            Debug.Log("El GameObject está retrocediendo en el eje Y.");
+            // Realiza aquí las acciones correspondientes al retroceso
+            return false;
         }
 
-        // Está moviéndose hacia arriba y hacia la derecha
-        //if (moveDirection.y > 0)
-        //{
-        //return true;
-        //}
-
-        return false;
+        // Actualiza la posición anterior a la actual para el próximo frame
+        actualPosition = nextPosition;
+        return true;
     }
-
+    */
     public void Show()
     {
         warningPanel.SetActive(true);
