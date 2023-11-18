@@ -242,10 +242,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &13654866
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -406,10 +405,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &21912359
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -620,10 +618,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &57928515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -789,10 +786,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &105094056
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -958,10 +954,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &107180551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1077,10 +1072,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &107180560
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1220,10 +1214,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &173323558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1339,10 +1332,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &173323567
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1553,10 +1545,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1 &184834445
 GameObject:
   m_ObjectHideFlags: 0
@@ -1805,10 +1796,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &190938805
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1969,10 +1959,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &191940826
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2112,10 +2101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &324920512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2231,10 +2219,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &324920521
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2359,7 +2346,7 @@ Transform:
   m_GameObject: {fileID: 330900180}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.037, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2494,6 +2481,82 @@ Transform:
   - {fileID: 1986176047}
   m_Father: {fileID: 783500872}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &430869107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 430869108}
+  - component: {fileID: 430869110}
+  - component: {fileID: 430869109}
+  m_Layer: 5
+  m_Name: CluePanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &430869108
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430869107}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1511369474}
+  m_Father: {fileID: 470986168}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 252.02026, y: -80.06671}
+  m_SizeDelta: {x: -1747.6543, y: -999.0944}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &430869109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430869107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.44662094, b: 1, a: 0.8745098}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &430869110
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430869107}
+  m_CullTransparentMesh: 1
 --- !u!1001 &442067012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2609,10 +2672,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &442067021
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2777,10 +2839,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &460642391
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2941,10 +3002,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &461871982
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3086,6 +3146,7 @@ RectTransform:
   m_Children:
   - {fileID: 730382195}
   - {fileID: 971023119}
+  - {fileID: 430869108}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3251,10 +3312,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &518422934
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3552,10 +3612,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &547695919
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3716,10 +3775,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &581873682
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3930,10 +3988,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -4174,10 +4231,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &622942778
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4388,10 +4444,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &659711465
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4507,10 +4562,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &659711474
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4671,10 +4725,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &673093052
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4969,10 +5022,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &703248138
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5270,10 +5322,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &744791695
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5434,10 +5485,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &763584559
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5652,10 +5702,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &767564583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5825,10 +5874,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1 &783500871
 GameObject:
   m_ObjectHideFlags: 0
@@ -5983,10 +6031,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &784637456
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6151,10 +6198,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &833945377
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6315,10 +6361,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &874061079
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6533,10 +6578,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &894488075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6652,10 +6696,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &894488084
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6866,10 +6909,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &903029776
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7039,10 +7081,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &912558373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7162,10 +7203,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &912558382
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7376,10 +7416,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &953149400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7495,10 +7534,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &953149409
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7561,7 +7599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &971023119
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7786,10 +7824,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &991469690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7959,10 +7996,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1 &1057940292
 GameObject:
   m_ObjectHideFlags: 0
@@ -8171,10 +8207,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &1121937309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8290,10 +8325,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1121937318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8508,10 +8542,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &1239243603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8627,10 +8660,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1239243612
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8791,10 +8823,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1254572535
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9005,10 +9036,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &1293985553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9124,10 +9154,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1293985562
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9342,10 +9371,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1 &1355388749
 GameObject:
   m_ObjectHideFlags: 0
@@ -9500,10 +9528,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1391098349
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9549,6 +9576,140 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1511369473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1511369474}
+  - component: {fileID: 1511369476}
+  - component: {fileID: 1511369475}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1511369474
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511369473}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 430869108}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 17.2, y: 9.8}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1511369475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511369473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Remember! Checker piece only can move diagonally up to right or left
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 15
+  m_fontSizeBase: 15
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 33
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 35.337036, w: -18.59842}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1511369476
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511369473}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1540533700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9718,10 +9879,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &1545779590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9837,10 +9997,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1545779599
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10135,10 +10294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1622727463
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10349,10 +10507,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1 &1654310988
 GameObject:
   m_ObjectHideFlags: 0
@@ -10602,10 +10759,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1696098910
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10766,10 +10922,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1699959473
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10934,10 +11089,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1707337018
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11098,10 +11252,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1808540424
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11301,10 +11454,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1945658954
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11469,10 +11621,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1971653771
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11633,10 +11784,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1972476041
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11847,10 +11997,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &1986176046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11966,10 +12115,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!61 &1986176055
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12252,10 +12400,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
-  clueButton: {fileID: 184834447}
-  tryAgainButton: {fileID: 730382196}
+  cluePanel: {fileID: 430869107}
+  player: {fileID: 330900180}
 --- !u!1001 &2293805641280878939
 PrefabInstance:
   m_ObjectHideFlags: 0

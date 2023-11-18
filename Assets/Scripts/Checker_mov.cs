@@ -12,8 +12,7 @@ public class Checker_mov : MonoBehaviour
 
     // UI Elements
     [SerializeField] private GameObject warningPanel;
-    [SerializeField] private Button clueButton;
-    [SerializeField] private Button tryAgainButton;
+    [SerializeField] private GameObject cluePanel;
 
     private Vector2 previousPosition;
     private Vector2 currentPosition;
@@ -28,7 +27,6 @@ public class Checker_mov : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindWithTag("Player");
-        previousPosition = player.transform.position;
         currentPosition = transform.position;
     }
    
@@ -38,7 +36,6 @@ public class Checker_mov : MonoBehaviour
         {
             // Mover player a la posición clicada
             Vector2 validBoxPosition = transform.position;
-            //player = GameObject.FindWithTag("Player");
             player.transform.position = validBoxPosition;
             
         }
@@ -48,29 +45,6 @@ public class Checker_mov : MonoBehaviour
         }
     }
    
-
-
-
-
-
-    /*
-    private bool IsMoveValid(Vector2 moveDirection)
-    {
-        nextPosition = transform.position;
-        //player.transform.position = moveDirection;
-
-        if (nextPosition.y < actualPosition.y)
-        {
-            Debug.Log("El GameObject está retrocediendo en el eje Y.");
-            // Realiza aquí las acciones correspondientes al retroceso
-            return false;
-        }
-
-        // Actualiza la posición anterior a la actual para el próximo frame
-        actualPosition = nextPosition;
-        return true;
-    }
-    */
     public void Show()
     {
         warningPanel.SetActive(true);
@@ -79,6 +53,12 @@ public class Checker_mov : MonoBehaviour
     public void Hide()
     {
         warningPanel.SetActive(false);
+        cluePanel.SetActive(false);
+    }
+
+    public void ShowCluePanel()
+    {
+        cluePanel.SetActive(true);
     }
 
     public void ShowClue()
@@ -87,12 +67,14 @@ public class Checker_mov : MonoBehaviour
         
         foreach (GameObject validBoxPosition in validPosObjects)
         {
-            SpriteRenderer spriterenderer = validBoxPosition.GetComponent<SpriteRenderer>();
+            SpriteRenderer _spriteRenderer = validBoxPosition.GetComponent<SpriteRenderer>();
             
-            if (spriterenderer != null)
+            if (_spriteRenderer != null)
             {
-                spriterenderer.material.color = Color.red;
+                _spriteRenderer.material.color = Color.blue;
             }
         }
+
+        ShowCluePanel();
     }
 }
