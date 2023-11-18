@@ -18,7 +18,7 @@ public class Checker_mov : MonoBehaviour
     private Vector2 previousPosition;
     private Vector3 currentPosition;
     private Vector2 moveDirection;
-    [SerializeField] GameObject player;
+    [SerializeField] private GameObject player;
 
     private void Awake()
     {
@@ -27,9 +27,10 @@ public class Checker_mov : MonoBehaviour
 
     private void Start()
     {
-        previousPosition = transform.position;
+        player = GameObject.FindWithTag("Player");
+        previousPosition = player.transform.position;
     }
-
+    
     private void Update()
     {
         currentPosition = transform.position;
@@ -41,16 +42,16 @@ public class Checker_mov : MonoBehaviour
         }
 
         // Actualiza la posición anterior a la actual para la siguiente comparación
-        previousPosition = currentPosition;
+        previousPosition = player.transform.position;
     }
-
+    
     private void OnMouseDown()
     {
-        if (gameObject.CompareTag("validPos") && previousPosition.y < currentPosition.y)
+        if (gameObject.CompareTag("validPos"))
         {
             // Mover player a la posición clicada
             Vector2 validBoxPosition = transform.position;
-            player = GameObject.FindWithTag("Player");
+            //player = GameObject.FindWithTag("Player");
             player.transform.position = validBoxPosition;
             
         }
