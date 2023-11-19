@@ -9,7 +9,6 @@ public class Checker_mov : MonoBehaviour
     // Checker movement
     
     [SerializeField] private GameObject player;
-    private Vector2 previousPosition;
     private Vector2 currentPosition;
 
     // UI Elements
@@ -18,12 +17,13 @@ public class Checker_mov : MonoBehaviour
 
     private void Awake()
     {
-       Hide();
+       HideWarningPanel();
+       HideCluePanel();
     }
 
     private void Start()
     {
-        player = GameObject.FindWithTag("Player");
+        player = GameObject.FindWithTag("Player"); // Hacer referencia de que el GO player es un GO con la etiqueta "Player"
         currentPosition = transform.position;
     }
    
@@ -38,27 +38,31 @@ public class Checker_mov : MonoBehaviour
         }
         else
         {
-            Show(); // Mostrar panel de advertencia
+            ShowWarningPanel(); // Mostrar panel de advertencia
         }
     }
    
-    public void Show()
+    public void ShowWarningPanel()
     {
         warningPanel.SetActive(true);
     }
 
-    public void Hide()
+    public void HideWarningPanel() // Asignar al botón TryAgain
     {
         warningPanel.SetActive(false);
-        cluePanel.SetActive(false);
     }
 
-    public void ShowCluePanel()
+    public void ShowCluePanel()  
     {
         cluePanel.SetActive(true);
     }
 
-    public void ShowClue()
+    public void HideCluePanel()
+    {
+        cluePanel.SetActive(false);
+    }
+
+    public void ShowClue()  // Asignar al botón Clue
     {
         GameObject[] validPosObjects = GameObject.FindGameObjectsWithTag("validPos");
         

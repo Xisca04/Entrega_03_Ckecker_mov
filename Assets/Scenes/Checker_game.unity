@@ -242,9 +242,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &13654866
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -405,9 +405,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &21912359
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -618,9 +618,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &57928515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -786,9 +786,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &105094056
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -954,9 +954,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &107180551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1072,9 +1072,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &107180560
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1214,9 +1214,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &173323558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1332,9 +1332,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &173323567
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1545,9 +1545,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1 &184834445
 GameObject:
   m_ObjectHideFlags: 0
@@ -1633,7 +1633,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 179174638}
         m_TargetAssemblyTypeName: Checker_mov, Assembly-CSharp
-        m_MethodName: Hide
+        m_MethodName: HideWarningPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1796,9 +1796,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &190938805
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1959,9 +1959,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &191940826
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2101,9 +2101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &324920512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2219,9 +2219,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &324920521
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2672,9 +2672,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &442067021
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2839,9 +2839,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &460642391
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3002,9 +3002,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &461871982
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3312,9 +3312,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &518422934
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3612,9 +3612,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &547695919
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3775,9 +3775,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &581873682
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3988,9 +3988,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -4231,9 +4231,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &622942778
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4444,9 +4444,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &659711465
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4562,9 +4562,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &659711474
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4725,9 +4725,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &673093052
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5022,9 +5022,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &703248138
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5322,9 +5322,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &744791695
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5485,9 +5485,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &763584559
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5702,9 +5702,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &767564583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5874,9 +5874,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1 &783500871
 GameObject:
   m_ObjectHideFlags: 0
@@ -6031,9 +6031,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &784637456
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6198,9 +6198,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &833945377
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6361,9 +6361,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &874061079
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6578,9 +6578,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &894488075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6696,9 +6696,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &894488084
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6909,9 +6909,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &903029776
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7081,9 +7081,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &912558373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7203,9 +7203,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &912558382
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7416,9 +7416,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &953149400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7534,9 +7534,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &953149409
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7824,9 +7824,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &991469690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7996,9 +7996,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1 &1057940292
 GameObject:
   m_ObjectHideFlags: 0
@@ -8207,9 +8207,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &1121937309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8325,9 +8325,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1121937318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8542,9 +8542,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &1239243603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8660,9 +8660,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1239243612
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8823,9 +8823,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1254572535
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9036,9 +9036,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &1293985553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9154,9 +9154,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1293985562
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9371,9 +9371,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1 &1355388749
 GameObject:
   m_ObjectHideFlags: 0
@@ -9528,9 +9528,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1391098349
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9879,9 +9879,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &1545779590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9997,9 +9997,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1545779599
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10294,9 +10294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1622727463
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10507,9 +10507,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1 &1654310988
 GameObject:
   m_ObjectHideFlags: 0
@@ -10759,9 +10759,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1696098910
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10922,9 +10922,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1699959473
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11089,9 +11089,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1707337018
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11252,9 +11252,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1808540424
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11454,9 +11454,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1945658954
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11621,9 +11621,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1971653771
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11784,9 +11784,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1972476041
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11997,9 +11997,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &1986176046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12115,9 +12115,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!61 &1986176055
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12400,9 +12400,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e09f743750a46ac7bb3a04a2b6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 330900180}
   warningPanel: {fileID: 971023118}
   cluePanel: {fileID: 430869107}
-  player: {fileID: 330900180}
 --- !u!1001 &2293805641280878939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12529,6 +12529,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Square
       objectReference: {fileID: 0}
+    - target: {fileID: 6083263698985606907, guid: 625cf51d98b598a4f9565c2bb18b8975, type: 3}
+      propertyPath: m_TagString
+      value: validPos
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12550,6 +12554,6 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 330900182}
+  - {fileID: 783500872}
   - {fileID: 470986168}
   - {fileID: 2078558658}
-  - {fileID: 783500872}
