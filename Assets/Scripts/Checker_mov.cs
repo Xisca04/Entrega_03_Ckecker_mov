@@ -24,9 +24,9 @@ public class Checker_mov : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindWithTag("Player"); // Hacer referencia de que el GO player es un GO con la etiqueta "Player"
-        currentPosition = transform.position;
+        currentPosition = transform.position; // Guarda la posición inicial del GO al inicio
     }
-   
+
     private void OnMouseDown()
     {
         if (gameObject.CompareTag("validPos") && player.transform.position.y < currentPosition.y)
